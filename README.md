@@ -1,12 +1,11 @@
-# Graduate Climate Conference 2022 
-# Climate + Machine Learning Workshop
+# Graduate Climate Conference 2022 <br> Climate + Machine Learning Workshop
 
 ## Demo notebook
 
 In the tutorial, we will focus on a self-contained demo notebook 
 named [GCC-Climate-ML-workshop.ipynb](GCC-Climate-ML-workshop.ipynb), and walk through it together.
 The easiest way of running the notebook is to use Google Colab, which also provides you with GPU compute.
-Please follow [this link](https://colab.research.google.com/github/salvaRC/GCC22-climate-machine-learning-workshop/blob/main/GCC-Climate-ML-workshop.ipynb) to open the notebook in Colab.
+Please follow [this link](https://githubtocolab.com/salvaRC/GCC2022-climate-machine-learning-workshop/blob/master/GCC-Climate-ML-workshop.ipynb) to open the notebook in Colab.
 
 
 ## Set up your own project
