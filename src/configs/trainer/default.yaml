@@ -1,0 +1,14 @@
+_target_: pytorch_lightning.Trainer
+
+gpus: 0    # -1 for all available GPUs. If you want to use CPU, set to 0. 1 for 1 GPU, 2 for 2 GPUs, etc.
+
+min_epochs: 1
+max_epochs: 15
+
+gradient_clip_val: 1.0  # Gradient clipping
+accumulate_grad_batches: 32    # Accumulate gradients on k batches
+
+resume_from_checkpoint: null
+precision: 32                 # 32 or 16
+num_sanity_val_steps: 0       # number of validation steps to execute at the beginning of the training
+

@@ -1,0 +1,4 @@
+name: ""
+loss_function: "mse"  # loss function to use (here, MSE)
+learning_rate: 3e-5  # learning rate for Adam optimizer
+#################################################################################################

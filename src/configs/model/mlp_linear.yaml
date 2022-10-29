@@ -1,0 +1,12 @@
+# Linear model, basically equivalent to linear regression
+_target_: src.models.MLP.MLP
+
+defaults:
+  - _self_
+  - _base_model_config.yaml   # general, model independent, parameters
+
+hidden_dims: []
+net_normalization: "none"
+activation_function: "none"
+dropout: 0.0
+residual: False

@@ -1,0 +1,7 @@
+_target_: src.datamodules.oisstv2_datamodule.OISSTv2DataModule
+data_dir: "C:/Users/salvarc/data/oisstv2/subregion-60x60boxes-pixelwise_stats"   # Make sure that it is an absolute path!
+
+batch_size: 64            # batch size for training
+eval_batch_size: 64       # batch size for validation, testing (larger might be faster, but uses more RAM)
+horizon: 1                # number of timesteps to predict ahead
+

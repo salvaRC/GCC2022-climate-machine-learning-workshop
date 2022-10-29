@@ -1,0 +1,7 @@
+_target_: src.models.simple_conv_net.ConvNet
+
+defaults:
+  - _self_
+  - _base_model_config.yaml   # general, model independent, parameters
+
+channels_hidden: 64
