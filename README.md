@@ -23,7 +23,7 @@ Please follow the instructions in the [environment](environment/) folder to set 
 
 From the repository root, please run the following in the command line:    
 
-    python run.py trainer.gpus=0 model=cnn logger=none callbacks=default
+    python run.py trainer.gpus=0 model=simple_cnn logger=none callbacks=default
 
 This will train an MLP on the CPU using some default callbacks and hyperparameters, but no logging.
 To change the used data directory you can override the flag ``datamodule.data_dir=YOUR-DATA-DIR``.
